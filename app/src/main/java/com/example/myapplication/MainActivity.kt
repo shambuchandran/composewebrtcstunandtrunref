@@ -32,7 +32,7 @@ class MainActivity : ComponentActivity() {
     private val mainViewModel: MainViewModel by viewModels()
     private var localSurfaceViewRenderer: SurfaceViewRenderer? = null
     private var remoteSurfaceViewRenderer: SurfaceViewRenderer? = null
-    private val myUserName = UUID.randomUUID().toString().substring(0, 2)
+    private val myUserName = UUID.randomUUID().toString().substring(0, 2) // for random user id on every app start
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
